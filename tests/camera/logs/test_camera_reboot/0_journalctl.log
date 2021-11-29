@@ -1,0 +1,1031 @@
+journalctl -fe
+-- Logs begin at Fri 2021-10-29 14:13:24 UTC. --
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Detected Renesas R-Car Gen3 r8a7795 ES3.0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: EFI services will not be available.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: smp: Bringing up secondary CPUs ...
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Detected PIPT I-cache on CPU1
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Xen: initializing cpu1
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU1: Booted secondary processor [411fd073]
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Detected PIPT I-cache on CPU2
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Xen: initializing cpu2
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU2: Booted secondary processor [411fd073]
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Detected PIPT I-cache on CPU3
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Xen: initializing cpu3
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU3: Booted secondary processor [411fd073]
+Oct 29 14:13:24 vf-b4-ecockpit kernel: smp: Brought up 1 node, 4 CPUs
+Oct 29 14:13:24 vf-b4-ecockpit kernel: SMP: Total of 4 processors activated.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU features: detected feature: 32-bit EL0 Support
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU features: detected feature: Kernel page table isolation (KPTI)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CPU: All CPU(s) started at EL1
+Oct 29 14:13:24 vf-b4-ecockpit kernel: alternatives: patching kernel code
+Oct 29 14:13:24 vf-b4-ecockpit kernel: devtmpfs: initialized
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mrandom: get_random_u32 called from bucket_table_alloc+0x108/0x260 with crng_init=0[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 29 14:13:24 vf-b4-ecockpit kernel: futex hash table entries: 1024 (order: 5, 131072 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: pinctrl core: initialized pinctrl subsystem
+Oct 29 14:13:24 vf-b4-ecockpit kernel: DMI not present or invalid.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: NET: Registered protocol family 16
+Oct 29 14:13:24 vf-b4-ecockpit kernel: vdso: 2 pages (1 code @ ffff000008b36000, 1 data @ ffff000009185000)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: DMA: preallocated 256 KiB pool for atomic allocations
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mxen:swiotlb_xen: Warning: only able to allocate 4 MB for software IO TLB[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: software IO TLB [mem 0x93800000-0x93c00000] (4MB) mapped at [ffff800053800000-ffff800053bfffff]
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Serial: AMBA PL011 UART driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: sh-pfc e6060000.pin-controller: r8a77951_pfc support registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ACPI: Interpreter disabled.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: rcar-avs: use avs value: 0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: xen:balloon: Initialising balloon driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: vgaarb: loaded
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mSCSI subsystem initialized[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: libata version 3.00 loaded.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new interface driver usbfs
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new interface driver hub
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new device driver usb
+Oct 29 14:13:24 vf-b4-ecockpit kernel: media: Linux media interface: v0.10
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Linux video capture interface: v2.00
+Oct 29 14:13:24 vf-b4-ecockpit kernel: pps_core: LinuxPPS API ver. 1 registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 29 14:13:24 vf-b4-ecockpit kernel: PTP clock support registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: EDAC MC: Ver: 3.0.0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;31mdmi: Firmware registration failed.[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Advanced Linux Sound Architecture Driver Initialized.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: clocksource: Switched to clocksource arch_sys_counter
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mVFS: Disk quotas dquot_6.6.0[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: pnp: PnP ACPI: disabled
+Oct 29 14:13:24 vf-b4-ecockpit kernel: NET: Registered protocol family 2
+Oct 29 14:13:24 vf-b4-ecockpit kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: NET: Registered protocol family 1
+Oct 29 14:13:24 vf-b4-ecockpit kernel: RPC: Registered named UNIX socket transport module.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: RPC: Registered udp transport module.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: RPC: Registered tcp transport module.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: PCI: CLS 0 bytes, default 128
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mhw perfevents: failed to parse interrupt-affinity[0] for pmu_a53[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: hw perfevents: /pmu_a53: failed to register PMU devices!
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39marmv8-pmu: probe of pmu_a53 failed with error -22[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mhw perfevents: failed to parse interrupt-affinity[0] for pmu_a57[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: hw perfevents: /pmu_a57: failed to register PMU devices!
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39marmv8-pmu: probe of pmu_a57 failed with error -22[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: kvm [1]: HYP mode not available
+Oct 29 14:13:24 vf-b4-ecockpit kernel: audit: initializing netlink subsys (disabled)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39maudit: type=2000 audit(0.808:1): state=initialized audit_enabled=0 res=1[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: workingset: timestamp_bits=44 max_order=19 bucket_order=0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mNFS: Registering the id_resolver key type[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mKey type id_resolver registered[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mKey type id_legacy registered[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Oct 29 14:13:24 vf-b4-ecockpit kernel: 9p: Installing v9fs 9p2000 file system support
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: io scheduler noop registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: io scheduler deadline registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: io scheduler cfq registered (default)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: io scheduler mq-deadline registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: io scheduler kyber registered
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mEINJ: ACPI disabled.[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: xen:xen_evtchn: Event-channel device installed
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 29 14:13:24 vf-b4-ecockpit kernel: SuperH (H)SCI(F) driver initialized
+Oct 29 14:13:24 vf-b4-ecockpit kernel: msm_serial: driver initialized
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mcacheinfo: Unable to detect cache hierarchy for CPU 0[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: loop: module loaded
+Oct 29 14:13:24 vf-b4-ecockpit kernel: libphy: Fixed MDIO Bus: probed
+Oct 29 14:13:24 vf-b4-ecockpit kernel: tun: Universal TUN/TAP device driver, 1.6
+Oct 29 14:13:24 vf-b4-ecockpit kernel: thunder-xcv, ver 1.0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: thunder-BGX, ver 1.0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: thunder-nic, ver 1.0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+Oct 29 14:13:24 vf-b4-ecockpit kernel: e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: igb: Intel(R) Gigabit Ethernet Network Driver - version 5.4.0-k
+Oct 29 14:13:24 vf-b4-ecockpit kernel: igb: Copyright (c) 2007-2014 Intel Corporation.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: igbvf: Intel(R) Gigabit Virtual Function Network Driver - version 2.4.0-k
+Oct 29 14:13:24 vf-b4-ecockpit kernel: igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: sky2: driver version 1.30
+Oct 29 14:13:24 vf-b4-ecockpit kernel: xen_netfront: Initialising Xen virtual ethernet driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: VFIO - User Level meta-driver version: 0.3
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ehci-pci: EHCI PCI platform driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ehci-platform: EHCI generic platform driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ehci-orion: EHCI orion driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ehci-exynos: EHCI EXYNOS driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ohci-pci: OHCI PCI platform driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ohci-platform: OHCI generic platform driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ohci-exynos: OHCI EXYNOS driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new interface driver usb-storage
+Oct 29 14:13:24 vf-b4-ecockpit kernel: i2c /dev entries driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;31mcpu cpu0: failed to get clock: -2[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mcpufreq-dt: probe of cpufreq-dt failed with error -2[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: sdhci: Secure Digital Host Controller Interface driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: sdhci: Copyright(c) Pierre Ossman
+Oct 29 14:13:24 vf-b4-ecockpit kernel: renesas_sdhi_internal_dmac ee140000.sd: mmc0 base at 0xee140000 max clock rate 200 MHz
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Synopsys Designware Multimedia Card Interface Driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new interface driver usbhid
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbhid: USB HID core driver
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ICCOM driver initialization(R-Car Rev.1.0.0)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ICCOM Channel4 ready
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Channel 4 info
+Oct 29 14:13:24 vf-b4-ecockpit kernel: IRQ: 0x18
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISARIICR: 0xE6260420
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISAREICR: 0xE6260424
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISARIMBR: 0xE6260450
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISAREMBR: 0xE6260470
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CTA: 0x48FF1000
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ACK_TIMEOUT: 25
+Oct 29 14:13:24 vf-b4-ecockpit kernel: TRG_TIMEOUT: 100
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ICCOM Channel7 ready
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Channel 7 info
+Oct 29 14:13:24 vf-b4-ecockpit kernel: IRQ: 0x19
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISARIICR: 0xE6260438
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISAREICR: 0xE626043C
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISARIMBR: 0xE626045C
+Oct 29 14:13:24 vf-b4-ecockpit kernel: MFISAREMBR: 0xE626047C
+Oct 29 14:13:24 vf-b4-ecockpit kernel: CTA: 0x48FF5000
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ACK_TIMEOUT: 25
+Oct 29 14:13:24 vf-b4-ecockpit kernel: TRG_TIMEOUT: 100
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ICCOM driver initialization finish
+Oct 29 14:13:24 vf-b4-ecockpit kernel: usbcore: registered new interface driver snd-usb-audio
+Oct 29 14:13:24 vf-b4-ecockpit kernel: NET: Registered protocol family 17
+Oct 29 14:13:24 vf-b4-ecockpit kernel: 9pnet: Installing 9P2000 support
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mKey type dns_resolver registered[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: registered taskstats version 1
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: mmc0: new HS400 MMC card at address 0001
+Oct 29 14:13:24 vf-b4-ecockpit kernel: mmcblk0: mmc0:0001 CJUD4R 59.6 GiB 
+Oct 29 14:13:24 vf-b4-ecockpit kernel: mmcblk0boot0: mmc0:0001 CJUD4R partition 1 31.9 MiB
+Oct 29 14:13:24 vf-b4-ecockpit kernel: mmcblk0boot1: mmc0:0001 CJUD4R partition 2 31.9 MiB
+Oct 29 14:13:24 vf-b4-ecockpit kernel: mmcblk0rpmb: mmc0:0001 CJUD4R partition 3 4.00 MiB, chardev (239:0)
+Oct 29 14:13:24 vf-b4-ecockpit kernel:  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21
+Oct 29 14:13:24 vf-b4-ecockpit kernel: rcar-du feb00000.display: fb0:  frame buffer device
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] Initialized rcar-du 1.0.0 20130110 for feb00000.display on minor 0
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [drm] Device feb00000.display probed
+Oct 29 14:13:24 vf-b4-ecockpit kernel: hctosys: unable to open rtc device (rtc0)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: ALSA device list:
+Oct 29 14:13:24 vf-b4-ecockpit kernel:   No soundcards found.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mrandom: fast init done[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+Oct 29 14:13:24 vf-b4-ecockpit kernel: VFS: Mounted root (ext4 filesystem) readonly on device 179:3.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: devtmpfs: mounted
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Freeing unused kernel memory: 1216K
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: System time before build time, advancing clock.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: NET: Registered protocol family 10
+Oct 29 14:13:24 vf-b4-ecockpit kernel: Segment Routing with IPv6
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: systemd 234 running in system mode. (+PAM -AUDIT -SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP -LIBCRYPTSETUP -GCRYPT -GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID -ELFUTILS +KMOD -IDN2 -IDN default-hierarchy=hybrid)
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Detected virtualization xen.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Detected architecture arm64.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Set hostname to <vf-b4-ecockpit>.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Initializing machine ID from random generator.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Installed transient /etc/machine-id file.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-gpt-auto-generator[1452]: [0;1;31mFailed to dissect: Input/output error[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1448]: [0;1;39m/lib/systemd/system-generators/systemd-gpt-auto-generator failed with error code 1.[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Listening on Journal Audit Socket.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mrandom: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Listening on Journal Socket.
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;39mpvrsrvkm: loading out-of-tree module taints kernel.[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: [0;1;31mPVR_K:  1459: HTBInit: HTBufferSizeInKB = 64[0m
+Oct 29 14:13:24 vf-b4-ecockpit kernel: EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+Oct 29 14:13:24 vf-b4-ecockpit systemd-journald[1474]: Journal started
+Oct 29 14:13:24 vf-b4-ecockpit systemd-journald[1474]: Runtime journal (/run/log/journal/c4e58851bc7040859d92d2e2766cf399) is 8.0M, max 64.0M, 56.0M free.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-modules-load[1459]: Inserted module 'pvrsrvkm'
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Load Kernel Modules.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Remount Root and Kernel File Systems.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting udev Coldplug all Devices...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Apply Kernel Variables...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounting Kernel Configuration File System...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounted Kernel Configuration File System.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-sysctl[1477]: [0;1;39mCouldn't write 'fq_codel' to 'net/core/default_qdisc', ignoring: No such file or directory[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Apply Kernel Variables.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-journald[1474]: Runtime journal (/run/log/journal/c4e58851bc7040859d92d2e2766cf399) is 8.0M, max 64.0M, 56.0M free.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Create Static Device Nodes in /dev.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting udev Kernel Device Manager...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Reached target Local File Systems (Pre).
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounting /var/volatile...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounting mount xenstore file system...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounted mount xenstore file system.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Mounted /var/volatile.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-udevd[1480]: [0;1;31mSpecified group 'kvm' unknown[0m
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started udev Kernel Device Manager.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Bind mount volatile /var/spool...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Bind mount volatile /var/lib...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Starting Bind mount volatile /var/cache...
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Bind mount volatile /var/spool.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started Bind mount volatile /var/cache.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Started udev Coldplug all Devices.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-udevd[2446]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 29 14:13:24 vf-b4-ecockpit systemd-udevd[2384]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 29 14:13:24 vf-b4-ecockpit systemd[1]: Found device /dev/hvc0.
+Oct 29 14:13:25 vf-b4-ecockpit kernel: [0;1;39mrandom: crng init done[0m
+Oct 29 14:13:25 vf-b4-ecockpit kernel: [0;1;39mrandom: 7 urandom warning(s) missed due to ratelimiting[0m
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Bind mount volatile /var/lib.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Load/Save Random Seed...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Reached target Local File Systems.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Create Volatile Files and Directories...
+Oct 29 14:13:25 vf-b4-ecockpit systemd-tmpfiles[2453]: [0;1;39m"/tmp" already exists and is not a directory.[0m
+Oct 29 14:13:25 vf-b4-ecockpit systemd-tmpfiles[2453]: [0;1;39m"/var/tmp" already exists and is not a directory.[0m
+Oct 29 14:13:25 vf-b4-ecockpit systemd-tmpfiles[2453]: [0;1;39m"/var/log" already exists and is not a directory.[0m
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Load/Save Random Seed.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Create Volatile Files and Directories.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Reached target System Initialization.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started dnf-automatic-notifyonly timer.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started dnf-automatic-download timer.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started dnf makecache timer.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Listening on RPCbind Server Activation Socket.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Network Service...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Listening on dropbear.socket.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Reached target Sockets.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started dnf-automatic-install timer.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Reached target Basic System.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting PowerVR consumer services...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started System Logging Service.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Increases rootfs image size to fit partition...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started D-Bus System Message Bus.
+Oct 29 14:13:25 vf-b4-ecockpit pvrinit[2456]: /usr/bin/pvrinit: line 49: /etc/modprobe.d/pvrsrvkm.conf: Read-only file system
+Oct 29 14:13:25 vf-b4-ecockpit pvrinit[2456]: /usr/bin/pvrinit: line 74: /sys/kernel/debug/pvr/apphint/0/EnableAPM: No such file or directory
+Oct 29 14:13:25 vf-b4-ecockpit pvrinit[2456]: Loaded PowerVR consumer services.
+Oct 29 14:13:25 vf-b4-ecockpit sh[2461]: resize2fs 1.43.5 (04-Aug-2017)
+Oct 29 14:13:25 vf-b4-ecockpit sh[2461]: /sbin/resize2fs: Read-only file system While checking for on-line resizing support
+Oct 29 14:13:25 vf-b4-ecockpit sh[2461]: Filesystem at /dev/mmcblk0p3 is mounted on /; on-line resizing required
+Oct 29 14:13:25 vf-b4-ecockpit sh[2461]: old_desc_blocks = 1, new_desc_blocks = 1
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Domu Loader...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Xen Para-Virtualized sound back-end.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Xen Para-Virtualized kbd back-end.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting Login Service...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Reached target Containers.
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Starting pvrinit.service...
+Oct 29 14:13:25 vf-b4-ecockpit systemd[1]: Started Kernel Logging Service.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39mklogd started: BusyBox v1.24.1 (2021-10-29 14:23:02 UTC)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Booting Linux on physical CPU 0x0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000] Linux version 4.14.75-ltsi-yocto-standard (oe-user@oe-host) (gcc version 7.3.0 (GCC)) #1 SMP PREEMPT Fri Oct 29 14:22:53 UTC 2021[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Boot CPU: AArch64 Processor [411fd073]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Machine model: Vinfast B4 board based on r8a7795 ES3.0+ + with 8GiB (4 x 2 GiB)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] debug: ignoring loglevel setting.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Xen 4.12 support found
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] efi: Getting EFI parameters from FDT:
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] efi: UEFI not found.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] cma: Reserved 128 MiB at 0x0000000098000000
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] NUMA: No NUMA configuration found
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] NUMA: Faking a node at [mem 0x0000000000000000-0x000000053fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] NUMA: NODE_DATA [mem 0x53ffb2600-0x53ffb40ff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Zone ranges:
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   DMA      [mem 0x0000000050000000-0x00000000ffffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000053fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Movable zone start for each node
+Oct 29 14:13:26 vf-b4-ecockpit pvrinit[2491]: /etc/init.d/pvrinit: line 49: /etc/modprobe.d/pvrsrvkm.conf: Read-only file system
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Early memory node ranges
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   node   0: [mem 0x0000000050000000-0x000000005fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   node   0: [mem 0x0000000093800000-0x000000009fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   node   0: [mem 0x0000000500000000-0x000000053fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Initmem setup node 0 [mem 0x0000000050000000-0x000000053fffffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] On node 0 totalpages: 378880
+Oct 29 14:13:26 vf-b4-ecockpit pvrinit[2491]: /etc/init.d/pvrinit: line 74: /sys/kernel/debug/pvr/apphint/0/EnableAPM: No such file or directory
+Oct 29 14:13:26 vf-b4-ecockpit pvrinit[2491]: Loaded PowerVR consumer services.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   DMA zone: 1824 pages used for memmap
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   DMA zone: 0 pages reserved
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   DMA zone: 116736 pages, LIFO batch:31
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   Normal zone: 4096 pages used for memmap
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]   Normal zone: 262144 pages, LIFO batch:31
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] psci: probing for conduit method from DT.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] psci: PSCIv1.1 detected in firmware.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] psci: Using standard PSCI v0.2 function IDs
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Checking BCB and Wipes the Android userdata partition if necessary....
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] psci: Trusted OS migration not required
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] psci: SMC Calling Convention v1.1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] percpu: Embedded 24 pages/cpu @ffff8004fff4d000 s57624 r8192 d32488 u98304
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] pcpu-alloc: s57624 r8192 d32488 u98304 alloc=24*4096
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Detected PIPT I-cache on CPU0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Speculative Store Bypass Disable mitigation not required
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 372960
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Policy zone: Normal
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000] Kernel command line: console=hvc0 root=/dev/mmcblk0p3 ro rootwait rootfstype=ext4 ignore_loglevel cma=128M[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] software IO TLB [mem 0x93fff000-0x97fff000] (64MB) mapped at [ffff800053fff000-ffff800057ffefff]
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Reached target Timers.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Memory: 1249488K/1515520K available (10940K kernel code, 1218K rwdata, 5220K rodata, 1216K init, 397K bss, 134960K reserved, 131072K cma-reserved)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000] Virtual kernel memory layout:[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     modules : 0xffff000000000000 - 0xffff000008000000   (   128 MB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     vmalloc : 0xffff000008000000 - 0xffff7dffbfff0000   (129022 GB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]       .text : 0xffff000008080000 - 0xffff000008b30000   ( 10944 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     .rodata : 0xffff000008b30000 - 0xffff000009050000   (  5248 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]       .init : 0xffff000009050000 - 0xffff000009180000   (  1216 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]       .data : 0xffff000009180000 - 0xffff0000092b0a00   (  1219 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]        .bss : 0xffff0000092b0a00 - 0xffff000009314160   (   398 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     fixed   : 0xffff7dfffe7f9000 - 0xffff7dfffec00000   (  4124 KB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     PCI I/O : 0xffff7dfffee00000 - 0xffff7dffffe00000   (    16 MB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     vmemmap : 0xffff7e0000000000 - 0xffff800000000000   (  2048 GB maximum)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]               0xffff7e0000400000 - 0xffff7e0014000000   (   316 MB actual)[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started PowerVR consumer services.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.000000]     memory  : 0xffff800010000000 - 0xffff800500000000   ( 20224 MB)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] Preemptible hierarchical RCU implementation.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]         RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000]         Tasks RCU enabled.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39mresize-rootfs.service: Main process exited, code=exited, status=1/FAILURE[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] arch_timer: cp15 timer(s) running at 8.32MHz (virt).
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Increases rootfs image size to fit partition.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x1eb398c07, max_idle_ns: 440795202503 ns
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000003] sched_clock: 56 bits at 8MHz, resolution 120ns, wraps every 2199023255503ns
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.000101] Console: colour dummy device 80x25
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.406963] console [hvc0] enabled
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.410457] Calibrating delay loop (skipped), value calculated using timer frequency.. 16.64 BogoMIPS (lpj=33280)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.420723] pid_max: default: 32768 minimum: 301
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.425436] Security Framework initialized
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.430409] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.437908] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.444904] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: cr7, cr7.img, /dev/null, /dev/null, 536870912, CR7, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: rootfs_dom0, rootfs_dom0.sparse, /dev/mmcblk0p3, /dev/mmcblk0p4, 1610612736, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.451631] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: boot, boot.img, /dev/mmcblk0p14, /dev/mmcblk0p15, 33554432, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: dtb, dtb.img, /dev/mmcblk0p10, /dev/mmcblk0p11, 1048576, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: dtbo, dtbo.img, /dev/mmcblk0p12, /dev/mmcblk0p13, 524288, appcore, not required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: vendor, vendor.img, /dev/mmcblk0p19, /dev/mmcblk0p20, 268435456, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: system, system.img, /dev/mmcblk0p17, /dev/mmcblk0p18, 2357198848, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: vbmeta, vbmeta.img, /dev/mmcblk0p8, /dev/mmcblk0p9, 524288, appcore, required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: New block info: product, product.img, /dev/null, /dev/null, 524288000, appcore, not required.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: config: Loaded 9 block infos
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.474911] ASID allocator initialised with 32768 entries
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slotNum: 0
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.cr7Updated: 0
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.appCoreUpdated: 0
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[0].successfulBoot: 1
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[0].priority: 15
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[0].triesRemaining: 2
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[1].successfulBoot: 0
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[1].priority: 15
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.slots[1].triesRemaining: 3
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: D: servicePart: metadata.crc32_le: -1094888953
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: avb_slot_verify.c:524: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.480885] xen:grant_table: Grant tables using version 1 layout
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.486841] Grant table initialized[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.490373] xen:events: Using FIFO-based ABI
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.494717] Xen: initializing cpu0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.502720] Hierarchical SRCU implementation.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.515329] Detected Renesas R-Car Gen3 r8a7795 ES3.0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.520923] EFI services will not be available.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.533409] smp: Bringing up secondary CPUs ...
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.566053] Detected PIPT I-cache on CPU1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.566132] Xen: initializing cpu1
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39mresize-rootfs.service: Unit entered failed state.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.566151] CPU1: Booted secondary processor [411fd073]
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39mresize-rootfs.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.594151] Detected PIPT I-cache on CPU2
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: avb_slot_verify.c:286: DEBUG: boot: Loading entire partition.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started pvrinit.service.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.594211] Xen: initializing cpu2
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.594228] CPU2: Booted secondary processor [411fd073]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.622267] Detected PIPT I-cache on CPU3
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.622322] Xen: initializing cpu3
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.622340] CPU3: Booted secondary processor [411fd073]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.622422] smp: Brought up 1 node, 4 CPUs
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.664861] SMP: Total of 4 processors activated.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.669620] CPU features: detected feature: 32-bit EL0 Support
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.675503] CPU features: detected feature: Kernel page table isolation (KPTI)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.694999] CPU: All CPU(s) started at EL1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.699043] alternatives: patching kernel code
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.704217] devtmpfs: initialized
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.710637] random: get_random_u32 called from bucket_table_alloc+0x108/0x260 with crng_init=0[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.719636] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.729316] futex hash table entries: 1024 (order: 5, 131072 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.737335] pinctrl core: initialized pinctrl subsystem
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.743763] DMI not present or invalid.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.747824] NET: Registered protocol family 16
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.754513] vdso: 2 pages (1 code @ ffff000008b36000, 1 data @ ffff000009185000)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.761836] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.769422] DMA: preallocated 256 KiB pool for atomic allocations
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.775522] xen:swiotlb_xen: Warning: only able to allocate 4 MB for software IO TLB[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.784069] software IO TLB [mem 0x93800000-0x93c00000] (4MB) mapped at [ffff800053800000-ffff800053bfffff]
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.794130] Serial: AMBA PL011 UART driver
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting The Xen xenstore...
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.801041] sh-pfc e6060000.pin-controller: r8a77951_pfc support registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.820825] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.828618] ACPI: Interpreter disabled.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.833586] rcar-avs: use avs value: 0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.838437] xen:balloon: Initialising balloon driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.844681] vgaarb: loaded
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.847504] SCSI subsystem initialized[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.851369] libata version 3.00 loaded.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.855311] usbcore: registered new interface driver usbfs
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.860756] usbcore: registered new interface driver hub
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.866257] usbcore: registered new device driver usb
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.871831] media: Linux media interface: v0.10
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.876304] Linux video capture interface: v2.00
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.881045] pps_core: LinuxPPS API ver. 1 registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.885977] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.895165] PTP clock support registered
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Weston Wayland compositor.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.899277] EDAC MC: Ver: 3.0.0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;31m[    0.902573] dmi: Firmware registration failed.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.907540] Advanced Linux Sound Architecture Driver Initialized.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.914170] clocksource: Switched to clocksource arch_sys_counter
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    0.920315] VFS: Disk quotas dquot_6.6.0[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.924201] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.931188] pnp: PnP ACPI: disabled
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.941452] NET: Registered protocol family 2
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.946209] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.953559] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.960244] TCP: Hash tables configured (established 16384 bind 16384)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.966823] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.972790] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.979363] NET: Registered protocol family 1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.984021] RPC: Registered named UNIX socket transport module.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.989856] RPC: Registered udp transport module.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.994612] RPC: Registered tcp transport module.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    0.999373] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.005867] PCI: CLS 0 bytes, default 128
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.010645] hw perfevents: failed to parse interrupt-affinity[0] for pmu_a53[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.017614] hw perfevents: /pmu_a53: failed to register PMU devices!
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.024029] armv8-pmu: probe of pmu_a53 failed with error -22[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.029932] hw perfevents: failed to parse interrupt-affinity[0] for pmu_a57[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.036911] hw perfevents: /pmu_a57: failed to register PMU devices!
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.043310] armv8-pmu: probe of pmu_a57 failed with error -22[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.049234] kvm [1]: HYP mode not available
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.056762] audit: initializing netlink subsys (disabled)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.062239] audit: type=2000 audit(0.808:1): state=initialized audit_enabled=0 res=1[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.062472] workingset: timestamp_bits=44 max_order=19 bucket_order=0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.066382] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.066883] NFS: Registering the id_resolver key type[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.066898] Key type id_resolver registered[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.066900] Key type id_legacy registered[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.066907] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.067046] 9p: Installing v9fs 9p2000 file system support
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.069937] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.069942] io scheduler noop registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.069944] io scheduler deadline registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.070020] io scheduler cfq registered (default)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.070024] io scheduler mq-deadline registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.070026] io scheduler kyber registered
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.081549] EINJ: ACPI disabled.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.084963] xen:xen_evtchn: Event-channel device installed
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.089679] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.091530] SuperH (H)SCI(F) driver initialized
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.091814] msm_serial: driver initialized
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.092671] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.092673] [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.095720] cacheinfo: Unable to detect cache hierarchy for CPU 0[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.100312] loop: module loaded
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.103219] libphy: Fixed MDIO Bus: probed
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.103413] tun: Universal TUN/TAP device driver, 1.6
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.103975] thunder-xcv, ver 1.0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104001] thunder-BGX, ver 1.0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104019] thunder-nic, ver 1.0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104239] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104241] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104275] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.4.0-k
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104276] igb: Copyright (c) 2007-2014 Intel Corporation.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104316] igbvf: Intel(R) Gigabit Virtual Function Network Driver - version 2.4.0-k
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104317] igbvf: Copyright (c) 2009 - 2012 Intel Corporation.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104555] sky2: driver version 1.30
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.104899] xen_netfront: Initialising Xen virtual ethernet driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.105085] VFIO - User Level meta-driver version: 0.3
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.105923] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.105926] ehci-pci: EHCI PCI platform driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.105966] ehci-platform: EHCI generic platform driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106053] ehci-orion: EHCI orion driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106117] ehci-exynos: EHCI EXYNOS driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106219] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106231] ohci-pci: OHCI PCI platform driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106266] ohci-platform: OHCI generic platform driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106346] ohci-exynos: OHCI EXYNOS driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.106682] usbcore: registered new interface driver usb-storage
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.108558] i2c /dev entries driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;31m[    1.112279] cpu cpu0: failed to get clock: -2[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.112292] cpufreq-dt: probe of cpufreq-dt failed with error -2[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.112662] sdhci: Secure Digital Host Controller Interface driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.112663] sdhci: Copyright(c) Pierre Ossman
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.174312] renesas_sdhi_internal_dmac ee140000.sd: mmc0 base at 0xee140000 max clock rate 200 MHz
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.174429] Synopsys Designware Multimedia Card Interface Driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.175050] sdhci-pltfm: SDHCI platform and OF driver helper
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.180031] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.180862] usbcore: registered new interface driver usbhid
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.180863] usbhid: USB HID core driver
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181607] ICCOM driver initialization(R-Car Rev.1.0.0)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181932] ICCOM Channel4 ready
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181934] Channel 4 info
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181935] IRQ: 0x18
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181936] MFISARIICR: 0xE6260420
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181938] MFISAREICR: 0xE6260424
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181940] MFISARIMBR: 0xE6260450
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181941] MFISAREMBR: 0xE6260470
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181942] CTA: 0x48FF1000
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181943] ACK_TIMEOUT: 25
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.181945] TRG_TIMEOUT: 100
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182150] ICCOM Channel7 ready
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182151] Channel 7 info
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182152] IRQ: 0x19
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182184] MFISARIICR: 0xE6260438
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182185] MFISAREICR: 0xE626043C
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182186] MFISARIMBR: 0xE626045C
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182187] MFISAREMBR: 0xE626047C
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182188] CTA: 0x48FF5000
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182190] ACK_TIMEOUT: 25
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182191] TRG_TIMEOUT: 100
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.182567] ICCOM driver initialization finish
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.184468] usbcore: registered new interface driver snd-usb-audio
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.185371] NET: Registered protocol family 17
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.185424] 9pnet: Installing 9P2000 support
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.185473] Key type dns_resolver registered[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.185976] registered taskstats version 1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.189075] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.189078] [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.190638] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.190640] [drm] No driver support for vblank timestamp query.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.309820] mmc0: new HS400 MMC card at address 0001
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.310111] mmcblk0: mmc0:0001 CJUD4R 59.6 GiB
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.310251] mmcblk0boot0: mmc0:0001 CJUD4R partition 1 31.9 MiB
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.310365] mmcblk0boot1: mmc0:0001 CJUD4R partition 2 31.9 MiB
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.310478] mmcblk0rpmb: mmc0:0001 CJUD4R partition 3 4.00 MiB, chardev (239:0)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.313063]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.525890] rcar-du feb00000.display: fb0:  frame buffer device
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.532179] [drm] Initialized rcar-du 1.0.0 20130110 for feb00000.display on minor 0
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.539829] [drm] Device feb00000.display probed
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.545081] hctosys: unable to open rtc device (rtc0)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.550380] ALSA device list:
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.553262]   No soundcards found.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.562463] random: fast init done[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.566744] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.574768] VFS: Mounted root (ext4 filesystem) readonly on device 179:3.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.582496] devtmpfs: mounted
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.586045] Freeing unused kernel memory: 1216K
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.689565] systemd[1]: System time before build time, advancing clock.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.708494] NET: Registered protocol family 10
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.713498] Segment Routing with IPv6
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.730032] systemd[1]: systemd 234 running in system mode. (+PAM -AUDIT -SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP -LIBCRYPTSETUP -GCRYPT -GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID -ELFUTILS +KMOD -IDN2 -IDN default-hierarchy=hybrid)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.750820] systemd[1]: Detected virtualization xen.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.755757] systemd[1]: Detected architecture arm64.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.768287] systemd[1]: Set hostname to <vf-b4-ecockpit>.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.774355] random: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.780897] systemd[1]: Initializing machine ID from random generator.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.787549] systemd[1]: Installed transient /etc/machine-id file.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;31m[    1.845036] systemd-gpt-auto-generator[1452]: Failed to dissect: Input/output error[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.853336] systemd[1448]: /lib/systemd/system-generators/systemd-gpt-auto-generator failed with error code 1.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.938821] random: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.945487] systemd[1]: Listening on Journal Audit Socket.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    1.956412] random: systemd: uninitialized urandom read (16 bytes read)[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.963118] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    1.977770] systemd[1]: Listening on Journal Socket.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    2.041205] pvrsrvkm: loading out-of-tree module taints kernel.[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;31m[    2.056855] PVR_K:  1459: HTBInit: HTBufferSizeInKB = 64[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    2.118564] EXT4-fs (mmcblk0p3): re-mounted. Opts: (null)
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    2.228889] systemd-journald[1474]: Received request to flush runtime journal from PID 1
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    2.736178] random: crng init done[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    2.739521] random: 7 urandom warning(s) missed due to ratelimiting[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    3.931814] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Oct 29 14:13:26 vf-b4-ecockpit systemd-udevd[2508]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 29 14:13:26 vf-b4-ecockpit systemd-logind[2490]: New seat seat0.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Login Service.
+Oct 29 14:13:26 vf-b4-ecockpit systemd-networkd[2455]: xenbr0: netdev ready
+Oct 29 14:13:26 vf-b4-ecockpit systemd-networkd[2455]: Enumeration completed
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Network Service.
+Oct 29 14:13:26 vf-b4-ecockpit systemd-networkd[2455]: xenbr0: IPv6 successfully enabled
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Reached target Network.
+Oct 29 14:13:26 vf-b4-ecockpit kernel: IPv6: ADDRCONF(NETDEV_UP): xenbr0: link is not ready
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [    3.989791] IPv6: ADDRCONF(NETDEV_UP): xenbr0: link is not ready
+Oct 29 14:13:26 vf-b4-ecockpit systemd-networkd[2455]: iccom: IPv6 successfully enabled
+Oct 29 14:13:26 vf-b4-ecockpit systemd-networkd[2455]: iccom: Gained carrier
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Permit User Sessions...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Network Name Resolution...
+Oct 29 14:13:26 vf-b4-ecockpit bash[2498]: boot-command is empty
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Checking BCB and Wipes the Android userdata partition if necessary..
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Permit User Sessions.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Serial Getty on hvc0.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Getty on tty1.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Reached target Login Prompts.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Found user 'avahi' (UID 999) and group 'avahi' (GID 999).
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Successfully dropped root privileges.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: avahi-daemon 0.6.32 starting up.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started AB-update daemon.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Successfully called chroot().
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Successfully dropped remaining capabilities.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2530]: [0;1;31m../../avahi-0.6.32/avahi-daemon/chroot.c: open() failed: No such file or directory[0m
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: [0;1;39mFailed to open /etc/resolv.conf: Invalid argument[0m
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Loading service file /services/sftp-ssh.service.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Loading service file /services/ssh.service.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Network interface enumeration completed.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Server startup complete. Host name is vf-b4-ecockpit.local. Local service cookie is 2549487568.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Service "vf-b4-ecockpit" (/services/ssh.service) successfully established.
+Oct 29 14:13:26 vf-b4-ecockpit avahi-daemon[2496]: Service "vf-b4-ecockpit" (/services/sftp-ssh.service) successfully established.
+Oct 29 14:13:26 vf-b4-ecockpit xenstored[2535]: [0;1;31mChecking store ...[0m
+Oct 29 14:13:26 vf-b4-ecockpit xenstored[2535]: [0;1;31mChecking store complete.[0m
+Oct 29 14:13:26 vf-b4-ecockpit launch-xenstore[2506]: Starting /usr/sbin/xenstored...WARNING: Failed to open connection to gnttab
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started The Xen xenstore.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Xenconsoled - handles logging from guest consoles and hypervisor...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting xen-init-dom0, initialise Dom0 configuration (xenstore nodes, JSON configuration stub)...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting LSB: Start/stop xenstored and xenconsoled...
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: avb_slot_verify.c:286: DEBUG: dtb: Loading entire partition.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Xenconsoled - handles logging from guest consoles and hypervisor.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2527]: [0;1;31msystemd-resolved.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-resolved: No such file or directory[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Main process exited, code=exited, status=226/NAMESPACE[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: systemd-resolved.service: Service has no hold-off time, scheduling restart.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Stopped Network Name Resolution.
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: I: domUConfigGenerator: AVB verification success
+Oct 29 14:13:26 vf-b4-ecockpit domu-cfg-generator[2471]: I: domUConfigGenerator: Verity enabled, reboot on corruption
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Network Name Resolution...
+Oct 29 14:13:26 vf-b4-ecockpit xen-init-dom0[2544]: Done setting up Dom0
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started xen-init-dom0, initialise Dom0 configuration (xenstore nodes, JSON configuration stub).
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Domu Loader.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Xendomains - start and stop guests on boot and shutdown...
+Oct 29 14:13:26 vf-b4-ecockpit sh[2483]: kbdback [14:13:26] [DEBUG]: SOURCE: /dev/input/event0
+Oct 29 14:13:26 vf-b4-ecockpit sh[2483]: kbdback [14:13:26] [DEBUG]: A: 0   4912   0   2265
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: pam_unix(login:session): session opened for user root by (uid=0)
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Created slice User Slice of root.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2551]: [0;1;31msystemd-resolved.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-resolved: No such file or directory[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting User Manager for UID 0...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started Session c1 of user root.
+Oct 29 14:13:26 vf-b4-ecockpit systemd-logind[2490]: New session c1 of user root.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Main process exited, code=exited, status=226/NAMESPACE[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:26 vf-b4-ecockpit xencommons[2540]: Setting domain 0 name, domid and JSON config...
+Oct 29 14:13:26 vf-b4-ecockpit kernel: [0;1;39maudit: type=1006 audit(1635516806.704:2): pid=2585 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=1 res=1[0m
+Oct 29 14:13:26 vf-b4-ecockpit kernel[2492]: [0;1;39m[    4.396709] audit: type=1006 audit(1635516806.704:2): pid=2585 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=1 res=1[0m
+Oct 29 14:13:26 vf-b4-ecockpit xencommons[2540]: Dom0 is already set up
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:26 vf-b4-ecockpit xencommons[2540]: Starting xenconsoled...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: systemd-resolved.service: Service has no hold-off time, scheduling restart.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Stopped Network Name Resolution.
+Oct 29 14:13:26 vf-b4-ecockpit xencommons[2540]: Starting QEMU as disk backend for dom0
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Network Name Resolution...
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started LSB: Start/stop xenstored and xenconsoled.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Reached target Paths.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Reached target Timers.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Reached target Sockets.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Reached target Basic System.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Reached target Default.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2585]: Startup finished in 87ms.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Started User Manager for UID 0.
+Oct 29 14:13:26 vf-b4-ecockpit xendomains[2554]: Starting auto Xen domains: DomUAndroid.cfglibxl: info: libxl_create.c:111:libxl__domain_build_info_setdefault: qemu-xen is unavailable, using qemu-xen-traditional instead: No such file or directory
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: Date: 2021-10-29 UTC
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.895] weston 2.0.0
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]:                http://wayland.freedesktop.org
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]:                Bug reports to: https://bugs.freedesktop.org/enter_bug.cgi?product=Wayland&component=weston&version=2.0.0
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]:                Build: 84709ddc-dirty v4l2-renderer: use uint8_t* for variables to be operated by pointer (2018-10-11 18:53:57 +0900)
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.895] Command line: /usr/bin/weston --idle-time=0
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.895] OS: Linux, 4.14.75-ltsi-yocto-standard, #1 SMP PREEMPT Fri Oct 29 14:22:53 UTC 2021, aarch64
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.900] Using config file '/etc/xdg/weston/weston.ini'
+Oct 29 14:13:26 vf-b4-ecockpit systemd[2613]: [0;1;31msystemd-resolved.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-resolved: No such file or directory[0m
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.903] Output repaint window is 34 ms maximum.
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.905] Loading module '/usr/lib/libweston-2/drm-backend.so'
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.912] initializing drm backend
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.918] logind: session control granted
+Oct 29 14:13:26 vf-b4-ecockpit systemd-logind[2490]: [0;1;31mFailed to apply ACLs: Operation not supported[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-logind.service: Cannot store more fds than FileDescriptorStoreMax=0, closing remaining.[0m
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.923] using /dev/dri/card0
+Oct 29 14:13:26 vf-b4-ecockpit dbus[2466]: [0;1;39m[system] Rejected send message, 0 matched rules; type="error", sender=":1.2" (uid=0 pid=2490 comm="/lib/systemd/systemd-logind ") interface="(unset)" member="(unset)" error name="org.freedesktop.DBus.Error.UnknownMethod" requested_reply="0" destination=":1.5" (uid=0 pid=2625 comm="/usr/bin/weston --idle-time=0 ")[0m
+Oct 29 14:13:26 vf-b4-ecockpit weston-launch[2505]: [14:13:26.925] Loading module '/usr/lib/libweston-2/gl-renderer.so'
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Main process exited, code=exited, status=226/NAMESPACE[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: systemd-resolved.service: Service has no hold-off time, scheduling restart.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Stopped Network Name Resolution.
+Oct 29 14:13:26 vf-b4-ecockpit systemd[1]: Starting Network Name Resolution...
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: loaded module: libgbm_kms.so.1
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: [14:13:27.009] warning: either no EGL_EXT_platform_base support or specific platform support; falling back to eglGetDisplay.
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: [14:13:27.012] failed to initialize display
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: [14:13:27.012] EGL error state: EGL_NOT_INITIALIZED (0x3001)
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: [14:13:27.012] failed to initialize egl
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: [14:13:27.012] fatal: failed to create compositor backend
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: cr7, cr7.img, /dev/null, /dev/null, 536870912, CR7, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: rootfs_dom0, rootfs_dom0.sparse, /dev/mmcblk0p3, /dev/mmcblk0p4, 1610612736, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: boot, boot.img, /dev/mmcblk0p14, /dev/mmcblk0p15, 33554432, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: dtb, dtb.img, /dev/mmcblk0p10, /dev/mmcblk0p11, 1048576, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: dtbo, dtbo.img, /dev/mmcblk0p12, /dev/mmcblk0p13, 524288, appcore, not required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: vendor, vendor.img, /dev/mmcblk0p19, /dev/mmcblk0p20, 268435456, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: system, system.img, /dev/mmcblk0p17, /dev/mmcblk0p18, 2357198848, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: vbmeta, vbmeta.img, /dev/mmcblk0p8, /dev/mmcblk0p9, 524288, appcore, required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: New block info: product, product.img, /dev/null, /dev/null, 524288000, appcore, not required.
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: config: Loaded 9 block infos
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: server: Use CR7::AccessLib
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slotNum: 0
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.cr7Updated: 0
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.appCoreUpdated: 0
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[0].successfulBoot: 1
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[0].priority: 15
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[0].triesRemaining: 2
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[1].successfulBoot: 0
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[1].priority: 15
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.slots[1].triesRemaining: 3
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: servicePart: metadata.crc32_le: -1094888953
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: socket: New TCP socket: 3, ip: 192.168.57.1, port: 12348
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 3 is connected
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: CR7::AccessLib: getBootFlags()
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: pam_unix(login:session): session closed for user root
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: failed to restore keyboard mode: Bad file descriptor
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: failed to set KD_TEXT mode on tty: Bad file descriptor
+Oct 29 14:13:27 vf-b4-ecockpit weston-launch[2505]: could not reset vt handling
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39mweston.service: Main process exited, code=exited, status=1/FAILURE[0m
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 3 is closed
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: bootControl: Boot flags is 0
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: bootControl: Current slot is a(0)
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: I: bootControl: Normal boot
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: D: socket: New TCP socket: 3, ip: 0.0.0.0, port: 12349
+Oct 29 14:13:27 vf-b4-ecockpit ab-updater[2531]: I: server: Starting...
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39mweston.service: Unit entered failed state.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39mweston.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd-logind[2490]: Removed session c1.
+Oct 29 14:13:27 vf-b4-ecockpit systemd-logind[2490]: [0;1;31mFailed to apply ACLs: Operation not supported[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Stopping User Manager for UID 0...
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Stopped target Default.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Stopped target Basic System.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Stopped target Timers.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Stopped target Paths.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Stopped target Sockets.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Reached target Shutdown.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Starting Exit the Session...
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2585]: Received SIGRTMIN+24 from PID 2639 (kill).
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2637]: [0;1;31msystemd-resolved.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-resolved: No such file or directory[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Stopped User Manager for UID 0.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Removed slice User Slice of root.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Main process exited, code=exited, status=226/NAMESPACE[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: systemd-resolved.service: Service has no hold-off time, scheduling restart.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Stopped Network Name Resolution.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Starting Network Name Resolution...
+Oct 29 14:13:27 vf-b4-ecockpit xendomains[2554]: libxl: error: libxl_arm.c:821:copy_partial_fdt: Can't copy the node "/soc" from the partial FDT
+Oct 29 14:13:27 vf-b4-ecockpit xendomains[2554]: libxl: error: libxl_arm.c:821:copy_partial_fdt: Can't copy the node "/soc" from the partial FDT
+Oct 29 14:13:27 vf-b4-ecockpit xendomains[2554]: libxl: error: libxl_arm.c:821:copy_partial_fdt: Can't copy the node "/soc" from the partial FDT
+Oct 29 14:13:27 vf-b4-ecockpit xendomains[2554]: libxl: error: libxl_arm.c:821:copy_partial_fdt: Can't copy the node "/regulator-wireless" from the partial FDT
+Oct 29 14:13:27 vf-b4-ecockpit systemd[2642]: [0;1;31msystemd-resolved.service: Failed at step NAMESPACE spawning /lib/systemd/systemd-resolved: No such file or directory[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Main process exited, code=exited, status=226/NAMESPACE[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: systemd-resolved.service: Service has no hold-off time, scheduling restart.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Stopped Network Name Resolution.
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Start request repeated too quickly.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;31mFailed to start Network Name Resolution.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Unit entered failed state.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: [0;1;39msystemd-resolved.service: Failed with result 'exit-code'.[0m
+Oct 29 14:13:27 vf-b4-ecockpit systemd[1]: Reached target Host and Network Name Lookups.
+Oct 29 14:13:28 vf-b4-ecockpit xenstored[2535]: [0;1;39mwrite rate limit: domain 0 is affected[0m
+Oct 29 14:13:28 vf-b4-ecockpit root[2713]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51714
+Oct 29 14:13:28 vf-b4-ecockpit root[2723]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51715
+Oct 29 14:13:28 vf-b4-ecockpit root[2717]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51717
+Oct 29 14:13:28 vf-b4-ecockpit root[2730]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51716
+Oct 29 14:13:28 vf-b4-ecockpit root[2731]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51718
+Oct 29 14:13:28 vf-b4-ecockpit root[2733]: /etc/xen/scripts/block: add XENBUS_PATH=backend/vbd/1/51713
+Oct 29 14:13:28 vf-b4-ecockpit root[2875]: /etc/xen/scripts/block: Writing backend/vbd/1/51718/physical-device b3:6 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2877]: /etc/xen/scripts/block: Writing backend/vbd/1/51718/physical-device-path /dev/mmcblk0p6 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2879]: /etc/xen/scripts/block: Writing backend/vbd/1/51718/hotplug-status connected to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2923]: /etc/xen/scripts/block: Writing backend/vbd/1/51714/physical-device b3:13 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2925]: /etc/xen/scripts/block: Writing backend/vbd/1/51714/physical-device-path /dev/mmcblk0p19 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2927]: /etc/xen/scripts/block: Writing backend/vbd/1/51714/hotplug-status connected to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2969]: /etc/xen/scripts/block: Writing backend/vbd/1/51713/physical-device b3:11 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2971]: /etc/xen/scripts/block: Writing backend/vbd/1/51713/physical-device-path /dev/mmcblk0p17 to xenstore.
+Oct 29 14:13:28 vf-b4-ecockpit root[2973]: /etc/xen/scripts/block: Writing backend/vbd/1/51713/hotplug-status connected to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3013]: /etc/xen/scripts/block: Writing backend/vbd/1/51717/physical-device b3:7 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3015]: /etc/xen/scripts/block: Writing backend/vbd/1/51717/physical-device-path /dev/mmcblk0p7 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3017]: /etc/xen/scripts/block: Writing backend/vbd/1/51717/hotplug-status connected to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3055]: /etc/xen/scripts/block: Writing backend/vbd/1/51716/physical-device b3:10 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3057]: /etc/xen/scripts/block: Writing backend/vbd/1/51716/physical-device-path /dev/mmcblk0p16 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3059]: /etc/xen/scripts/block: Writing backend/vbd/1/51716/hotplug-status connected to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3095]: /etc/xen/scripts/block: Writing backend/vbd/1/51715/physical-device b3:15 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3097]: /etc/xen/scripts/block: Writing backend/vbd/1/51715/physical-device-path /dev/mmcblk0p21 to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit root[3099]: /etc/xen/scripts/block: Writing backend/vbd/1/51715/hotplug-status connected to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Creating new backend devKey: 1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [ERROR]: Failed to open pipe
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: bePath =  /local/domain/0/backend/vkbd/1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Sleep...
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [INFO]: /local/domain/0/backend/vkbd/1/0/state : backend state  3  ->  3
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [INFO]: /local/domain/0/backend/vkbd/1/0/state : backend state  2  ->  2
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2483]: kbdback [14:13:29] [INFO]: /local/domain/0/backend/vkbd/1/0/state : backend state  2  ->  2
+Oct 29 14:13:29 vf-b4-ecockpit systemd-udevd[3118]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 29 14:13:29 vf-b4-ecockpit root[3139]: /etc/xen/scripts/vif-bridge: online type_if=vif XENBUS_PATH=backend/vif/1/0
+Oct 29 14:13:29 vf-b4-ecockpit kernel: xenbr0: port 1(vif1.0) entered blocking state
+Oct 29 14:13:29 vf-b4-ecockpit kernel: xenbr0: port 1(vif1.0) entered disabled state
+Oct 29 14:13:29 vf-b4-ecockpit kernel: device vif1.0 entered promiscuous mode
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [    7.152965] xenbr0: port 1(vif1.0) entered blocking state
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [    7.158344] xenbr0: port 1(vif1.0) entered disabled state
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [    7.164007] device vif1.0 entered promiscuous mode
+Oct 29 14:13:29 vf-b4-ecockpit audit: ANOM_PROMISCUOUS dev=vif1.0 prom=256 old_prom=0 auid=4294967295 uid=0 gid=0 ses=4294967295
+Oct 29 14:13:29 vf-b4-ecockpit kernel: [0;1;39maudit: type=1700 audit(1635516809.460:3): dev=vif1.0 prom=256 old_prom=0 auid=4294967295 uid=0 gid=0 ses=4294967295[0m
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [0;1;39m[    7.168828] audit: type=1700 audit(1635516809.460:3): dev=vif1.0 prom=256 old_prom=0 auid=4294967295 uid=0 gid=0 ses=4294967295[0m
+Oct 29 14:13:29 vf-b4-ecockpit root[3162]: /etc/xen/scripts/vif-bridge: Successful vif-bridge online for vif1.0, bridge xenbr0.
+Oct 29 14:13:29 vf-b4-ecockpit root[3163]: /etc/xen/scripts/vif-bridge: Writing backend/vif/1/0/hotplug-status connected to xenstore.
+Oct 29 14:13:29 vf-b4-ecockpit audit[3158]: SYSCALL arch=c00000b7 syscall=29 success=yes exit=0 a0=5 a1=89a2 a2=ffffcb9fcfd8 a3=3072626e6578ff items=0 ppid=3121 pid=3158 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="brctl" exe="/usr/sbin/brctl.bridge-utils" key=(null)
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Creating new backend devKey: 1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [INFO]: /local/domain/0/backend/vsnd/1/0/state : backend state  1  ->  1
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [DEBUG]: Processing device:  1/0
+Oct 29 14:13:29 vf-b4-ecockpit sh[2476]: sndback [14:13:29] [INFO]: /local/domain/0/backend/vsnd/1/0/state : backend state  2  ->  2
+Oct 29 14:13:29 vf-b4-ecockpit kernel: IPv6: ADDRCONF(NETDEV_UP): vif1.0: link is not ready
+Oct 29 14:13:29 vf-b4-ecockpit kernel: [0;1;39maudit: type=1300 audit(1635516809.460:3): arch=c00000b7 syscall=29 success=yes exit=0 a0=5 a1=89a2 a2=ffffcb9fcfd8 a3=3072626e6578ff items=0 ppid=3121 pid=3158 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="brctl" exe="/usr/sbin/brctl.bridge-utils" key=(null)[0m
+Oct 29 14:13:29 vf-b4-ecockpit kernel: [0;1;39maudit: type=1327 audit(1635516809.460:3): proctitle=627263746C0061646469660078656E62723000766966312E30[0m
+Oct 29 14:13:29 vf-b4-ecockpit audit: PROCTITLE proctitle=627263746C0061646469660078656E62723000766966312E30
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [    7.171479] IPv6: ADDRCONF(NETDEV_UP): vif1.0: link is not ready
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [0;1;39m[    7.186390] audit: type=1300 audit(1635516809.460:3): arch=c00000b7 syscall=29 success=yes exit=0 a0=5 a1=89a2 a2=ffffcb9fcfd8 a3=3072626e6578ff items=0 ppid=3121 pid=3158 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="brctl" exe="/usr/sbin/brctl.bridge-utils" key=(null)[0m
+Oct 29 14:13:29 vf-b4-ecockpit kernel[2492]: [0;1;39m[    7.215310] audit: type=1327 audit(1635516809.460:3): proctitle=627263746C0061646469660078656E62723000766966312E30[0m
+Oct 29 14:13:30 vf-b4-ecockpit sh[2483]: kbdback [14:13:30] [DEBUG]: Sleep...
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51713: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.126811] xen-blkback: backend/vbd/1/51713: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51714: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.164144] xen-blkback: backend/vbd/1/51714: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51715: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.205979] xen-blkback: backend/vbd/1/51715: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51716: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.241372] xen-blkback: backend/vbd/1/51716: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51717: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.273906] xen-blkback: backend/vbd/1/51717: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xen-blkback: backend/vbd/1/51718: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.308281] xen-blkback: backend/vbd/1/51718: using 4 queues, protocol 1 (arm-abi) persistent grants
+Oct 29 14:13:30 vf-b4-ecockpit kernel: vif vif-1-0 vif1.0: Guest Rx ready
+Oct 29 14:13:30 vf-b4-ecockpit kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vif1.0: link becomes ready
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.359473] vif vif-1-0 vif1.0: Guest Rx ready
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.364013] IPv6: ADDRCONF(NETDEV_CHANGE): vif1.0: link becomes ready
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xenbr0: port 1(vif1.0) entered blocking state
+Oct 29 14:13:30 vf-b4-ecockpit kernel: xenbr0: port 1(vif1.0) entered forwarding state
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.373852] xenbr0: port 1(vif1.0) entered blocking state
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.379262] xenbr0: port 1(vif1.0) entered forwarding state
+Oct 29 14:13:30 vf-b4-ecockpit systemd-networkd[2455]: vif1.0: Gained carrier
+Oct 29 14:13:30 vf-b4-ecockpit kernel: IPv6: ADDRCONF(NETDEV_CHANGE): xenbr0: link becomes ready
+Oct 29 14:13:30 vf-b4-ecockpit kernel[2492]: [    8.385179] IPv6: ADDRCONF(NETDEV_CHANGE): xenbr0: link becomes ready
+Oct 29 14:13:30 vf-b4-ecockpit systemd-networkd[2455]: xenbr0: Gained carrier
+Oct 29 14:13:30 vf-b4-ecockpit avahi-daemon[2496]: Joining mDNS multicast group on interface xenbr0.IPv4 with address 192.168.100.3.
+Oct 29 14:13:30 vf-b4-ecockpit avahi-daemon[2496]: New relevant interface xenbr0.IPv4 for mDNS.
+Oct 29 14:13:30 vf-b4-ecockpit avahi-daemon[2496]: Registering new address record for 192.168.100.3 on xenbr0.IPv4.
+Oct 29 14:13:31 vf-b4-ecockpit sh[2483]: kbdback [14:13:31] [DEBUG]: Sleep...
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: Joining mDNS multicast group on interface xenbr0.IPv6 with address fe80::8c18:16ff:fe2b:34d1.
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: New relevant interface xenbr0.IPv6 for mDNS.
+Oct 29 14:13:32 vf-b4-ecockpit systemd-networkd[2455]: xenbr0: Gained IPv6LL
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: Registering new address record for fe80::8c18:16ff:fe2b:34d1 on xenbr0.*.
+Oct 29 14:13:32 vf-b4-ecockpit sh[2483]: kbdback [14:13:32] [DEBUG]: Sleep...
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: Joining mDNS multicast group on interface vif1.0.IPv6 with address fe80::fcff:ffff:feff:ffff.
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: New relevant interface vif1.0.IPv6 for mDNS.
+Oct 29 14:13:32 vf-b4-ecockpit systemd-networkd[2455]: vif1.0: Gained IPv6LL
+Oct 29 14:13:32 vf-b4-ecockpit avahi-daemon[2496]: Registering new address record for fe80::fcff:ffff:feff:ffff on vif1.0.*.
+Oct 29 14:13:33 vf-b4-ecockpit sh[2483]: kbdback [14:13:33] [DEBUG]: Sleep...
+Oct 29 14:13:34 vf-b4-ecockpit sh[2483]: kbdback [14:13:34] [DEBUG]: Sleep...
+Oct 29 14:13:34 vf-b4-ecockpit xendomains[2554]: [done]
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Started Xendomains - start and stop guests on boot and shutdown.
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Starting Xen-watchdog - run xen watchdog daemon...
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Started Xen-watchdog - run xen watchdog daemon.
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Reached target Multi-User System.
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 29 14:13:34 vf-b4-ecockpit systemd[1]: Startup finished in 1.424s (kernel) + 10.692s (userspace) = 12.117s.
+Oct 29 14:13:35 vf-b4-ecockpit sh[2483]: kbdback [14:13:35] [DEBUG]: Sleep...
+Oct 29 14:13:36 vf-b4-ecockpit sh[2483]: kbdback [14:13:36] [DEBUG]: Sleep...
+Oct 29 14:13:37 vf-b4-ecockpit sh[2483]: kbdback [14:13:37] [DEBUG]: Sleep...
+Oct 29 14:13:38 vf-b4-ecockpit sh[2483]: kbdback [14:13:38] [DEBUG]: Sleep...
+Oct 29 14:13:39 vf-b4-ecockpit sh[2483]: kbdback [14:13:39] [DEBUG]: Sleep...
+Oct 29 14:13:40 vf-b4-ecockpit sh[2483]: kbdback [14:13:40] [DEBUG]: Sleep...
+Oct 29 14:13:41 vf-b4-ecockpit sh[2483]: kbdback [14:13:41] [DEBUG]: Sleep...
+Oct 29 14:13:42 vf-b4-ecockpit sh[2483]: kbdback [14:13:42] [DEBUG]: Sleep...
+Oct 29 14:13:43 vf-b4-ecockpit sh[2483]: kbdback [14:13:43] [DEBUG]: Sleep...
+Oct 29 14:13:44 vf-b4-ecockpit systemd-networkd[2455]: xenbr0: Configured
+Oct 29 14:13:44 vf-b4-ecockpit sh[2483]: kbdback [14:13:44] [DEBUG]: Sleep...
+Oct 29 14:13:45 vf-b4-ecockpit sh[2483]: kbdback [14:13:45] [DEBUG]: Sleep...
+Oct 29 14:13:46 vf-b4-ecockpit sh[2483]: kbdback [14:13:46] [DEBUG]: Sleep...
+Oct 29 14:13:47 vf-b4-ecockpit sh[2483]: kbdback [14:13:47] [DEBUG]: Sleep...
+Oct 29 14:13:48 vf-b4-ecockpit sh[2483]: kbdback [14:13:48] [DEBUG]: Sleep...
+Oct 29 14:13:49 vf-b4-ecockpit sh[2483]: kbdback [14:13:49] [DEBUG]: Sleep...
+Oct 29 14:13:50 vf-b4-ecockpit sh[2483]: kbdback [14:13:50] [DEBUG]: Sleep...
+Oct 29 14:13:51 vf-b4-ecockpit sh[2483]: kbdback [14:13:51] [DEBUG]: Sleep...
+Oct 29 14:13:52 vf-b4-ecockpit sh[2483]: kbdback [14:13:52] [DEBUG]: Sleep...
+Oct 29 14:13:53 vf-b4-ecockpit sh[2483]: kbdback [14:13:53] [DEBUG]: Sleep...
+Oct 29 14:13:54 vf-b4-ecockpit sh[2483]: kbdback [14:13:54] [DEBUG]: Sleep...
+Oct 29 14:13:55 vf-b4-ecockpit sh[2483]: kbdback [14:13:55] [DEBUG]: Sleep...
+Oct 29 14:13:56 vf-b4-ecockpit sh[2483]: kbdback [14:13:56] [DEBUG]: Sleep...
+Oct 29 14:13:57 vf-b4-ecockpit sh[2483]: kbdback [14:13:57] [DEBUG]: Sleep...
+Oct 29 14:13:58 vf-b4-ecockpit sh[2483]: kbdback [14:13:58] [DEBUG]: Sleep...
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 3 accepted new connection: 5
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socketServer: New client connected: 5
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socketServer: Client for polling: 5
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socketServer: Client: 5 sends data
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: inactiveSlotUpdater: BootComplete is received
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: inactiveSlotUpdater: APPCore version is Vinfast/vf_b4_ecockpit/vf_b4_ecockpit:9/PQ2A.190405.003-RELtest-r8a7795/210:userdebug/test-keys
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socket: New TCP socket: 6, ip: 192.168.57.1, port: 12348
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 6 is connected
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: CR7::AccessLib: sendVersionInfo()
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 6 is closed
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socketServer: Client for polling: 5
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socketServer: Client: 5 disconnected
+Oct 29 14:13:58 vf-b4-ecockpit ab-updater[2531]: D: socket: Socket: 5 is closed
+Oct 29 14:13:59 vf-b4-ecockpit sh[2483]: kbdback [14:13:59] [DEBUG]: Sleep...
+Oct 29 14:14:00 vf-b4-ecockpit sh[2483]: kbdback [14:14:00] [DEBUG]: Sleep...
+Oct 29 14:14:01 vf-b4-ecockpit sh[2483]: kbdback [14:14:01] [DEBUG]: Sleep...
+Oct 29 14:14:02 vf-b4-ecockpit sh[2483]: kbdback [14:14:02] [DEBUG]: Sleep...
+Oct 29 14:14:03 vf-b4-ecockpit sh[2483]: kbdback [14:14:03] [DEBUG]: Sleep...
+Oct 29 14:14:04 vf-b4-ecockpit sh[2483]: kbdback [14:14:04] [DEBUG]: Sleep...
+Oct 29 14:14:05 vf-b4-ecockpit sh[2483]: kbdback [14:14:05] [DEBUG]: Sleep...
+Oct 29 14:14:06 vf-b4-ecockpit sh[2483]: kbdback [14:14:06] [DEBUG]: Sleep...
+Oct 29 14:14:07 vf-b4-ecockpit sh[2483]: kbdback [14:14:07] [DEBUG]: Sleep...
+Oct 29 14:14:08 vf-b4-ecockpit sh[2483]: kbdback [14:14:08] [DEBUG]: Sleep...
+Oct 29 14:14:09 vf-b4-ecockpit sh[2483]: kbdback [14:14:09] [DEBUG]: Sleep...
+Oct 29 14:14:10 vf-b4-ecockpit sh[2483]: kbdback [14:14:10] [DEBUG]: Sleep...
+Oct 29 14:14:11 vf-b4-ecockpit sh[2483]: kbdback [14:14:11] [DEBUG]: Sleep...
+Oct 29 14:14:12 vf-b4-ecockpit sh[2483]: kbdback [14:14:12] [DEBUG]: Sleep...
+Oct 29 14:14:13 vf-b4-ecockpit sh[2483]: kbdback [14:14:13] [DEBUG]: Sleep...
+Oct 29 14:14:14 vf-b4-ecockpit sh[2483]: kbdback [14:14:14] [DEBUG]: Sleep...
+Oct 29 14:14:15 vf-b4-ecockpit sh[2483]: kbdback [14:14:15] [DEBUG]: Sleep...
+Oct 29 14:14:16 vf-b4-ecockpit sh[2483]: kbdback [14:14:16] [DEBUG]: Sleep...
+Oct 29 14:14:16 vf-b4-ecockpit login[2528]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 29 14:14:16 vf-b4-ecockpit systemd[1]: Created slice User Slice of root.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[1]: Starting User Manager for UID 0...
+Oct 29 14:14:16 vf-b4-ecockpit systemd-logind[2490]: New session c2 of user root.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[1]: Started Session c2 of user root.
+Oct 29 14:14:16 vf-b4-ecockpit kernel: [0;1;39maudit: type=1006 audit(1635516856.708:4): pid=3204 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=2 res=1[0m
+Oct 29 14:14:16 vf-b4-ecockpit kernel[2492]: [0;1;39m[   54.401623] audit: type=1006 audit(1635516856.708:4): pid=3204 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=2 res=1[0m
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Reached target Sockets.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Reached target Paths.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Reached target Timers.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Reached target Basic System.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Reached target Default.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[3204]: Startup finished in 77ms.
+Oct 29 14:14:16 vf-b4-ecockpit systemd[1]: Started User Manager for UID 0.
+Oct 29 14:14:16 vf-b4-ecockpit login[3209]: [0;1;39mROOT LOGIN  on '/dev/hvc0'[0m
+Oct 29 14:14:17 vf-b4-ecockpit sh[2483]: kbdback [14:14:17] [DEBUG]: Sleep...
+Oct 29 14:14:18 vf-b4-ecockpit sh[2483]: kbdback [14:14:18] [DEBUG]: Sleep...
+Oct 29 14:14:19 vf-b4-ecockpit sh[2483]: kbdback [14:14:19] [DEBUG]: Sleep...
+Oct 29 14:14:20 vf-b4-ecockpit sh[2483]: kbdback [14:14:20] [DEBUG]: Sleep...
+Oct 29 14:14:21 vf-b4-ecockpit sh[2483]: kbdback [14:14:21] [DEBUG]: Sleep...
+Oct 29 14:14:22 vf-b4-ecockpit sh[2483]: kbdback [14:14:22] [DEBUG]: Sleep...
+Oct 29 14:14:23 vf-b4-ecockpit sh[2483]: kbdback [14:14:23] [DEBUG]: Sleep...
+Oct 29 14:14:24 vf-b4-ecockpit sh[2483]: kbdback [14:14:24] [DEBUG]: Sleep...
+Oct 29 14:14:25 vf-b4-ecockpit sh[2483]: kbdback [14:14:25] [DEBUG]: Sleep...
+Oct 29 14:14:26 vf-b4-ecockpit sh[2483]: kbdback [14:14:26] [DEBUG]: Sleep...
+Oct 29 14:14:27 vf-b4-ecockpit sh[2483]: kbdback [14:14:27] [DEBUG]: Sleep...
+Oct 29 14:14:28 vf-b4-ecockpit sh[2483]: kbdback [14:14:28] [DEBUG]: Sleep...
+Oct 29 14:14:29 vf-b4-ecockpit sh[2483]: kbdback [14:14:29] [DEBUG]: Sleep...
+Oct 29 14:14:30 vf-b4-ecockpit sh[2483]: kbdback [14:14:30] [DEBUG]: Sleep...
+Oct 29 14:14:31 vf-b4-ecockpit sh[2483]: kbdback [14:14:31] [DEBUG]: Sleep...
+Oct 29 14:14:32 vf-b4-ecockpit sh[2483]: kbdback [14:14:32] [DEBUG]: Sleep...
+Oct 29 14:14:33 vf-b4-ecockpit sh[2483]: kbdback [14:14:33] [DEBUG]: Sleep...
+Oct 29 14:14:34 vf-b4-ecockpit sh[2483]: kbdback [14:14:34] [DEBUG]: Sleep...
+Oct 29 14:14:35 vf-b4-ecockpit sh[2483]: kbdback [14:14:35] [DEBUG]: Sleep...
+Oct 29 14:14:36 vf-b4-ecockpit sh[2483]: kbdback [14:14:36] [DEBUG]: Sleep...
+Oct 29 14:14:37 vf-b4-ecockpit sh[2483]: kbdback [14:14:37] [DEBUG]: Sleep...
+Oct 29 14:14:38 vf-b4-ecockpit sh[2483]: kbdback [14:14:38] [DEBUG]: Sleep...
+Oct 29 14:14:39 vf-b4-ecockpit sh[2483]: kbdback [14:14:39] [DEBUG]: Sleep...
+Oct 29 14:14:40 vf-b4-ecockpit sh[2483]: kbdback [14:14:40] [DEBUG]: Sleep...
+Oct 29 14:14:41 vf-b4-ecockpit sh[2483]: kbdback [14:14:41] [DEBUG]: Sleep...
+Oct 29 14:14:42 vf-b4-ecockpit sh[2483]: kbdback [14:14:42] [DEBUG]: Sleep...
+Oct 29 14:14:43 vf-b4-ecockpit sh[2483]: kbdback [14:14:43] [DEBUG]: Sleep...
+Oct 29 14:14:44 vf-b4-ecockpit sh[2483]: kbdback [14:14:44] [DEBUG]: Sleep...
+Oct 29 14:14:45 vf-b4-ecockpit sh[2483]: kbdback [14:14:45] [DEBUG]: Sleep...
+Oct 29 14:14:46 vf-b4-ecockpit sh[2483]: kbdback [14:14:46] [DEBUG]: Sleep...
+Oct 29 14:14:47 vf-b4-ecockpit sh[2483]: kbdback [14:14:47] [DEBUG]: Sleep...
+Oct 29 14:14:48 vf-b4-ecockpit sh[2483]: kbdback [14:14:48] [DEBUG]: Sleep...
+Oct 29 14:14:49 vf-b4-ecockpit sh[2483]: kbdback [14:14:49] [DEBUG]: Sleep...
+Oct 29 14:14:50 vf-b4-ecockpit sh[2483]: kbdback [14:14:50] [DEBUG]: Sleep...
+Oct 29 14:14:51 vf-b4-ecockpit sh[2483]: kbdback [14:14:51] [DEBUG]: Sleep...
+Oct 29 14:14:52 vf-b4-ecockpit sh[2483]: kbdback [14:14:52] [DEBUG]: Sleep...
+Oct 29 14:14:53 vf-b4-ecockpit sh[2483]: kbdback [14:14:53] [DEBUG]: Sleep...
+Oct 29 14:14:54 vf-b4-ecockpit sh[2483]: kbdback [14:14:54] [DEBUG]: Sleep...
+Oct 29 14:14:55 vf-b4-ecockpit sh[2483]: kbdback [14:14:55] [DEBUG]: Sleep...
